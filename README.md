@@ -59,9 +59,6 @@ Currently, **Buzzing** is in the early stages of development (*Pre-Alpha*). Upco
 
 ---
 *Note: This repository reflects my academic and practical journey in Full-stack Development.*
-Enviar feedback
-Resultados de tradução disponíveis
-
 ---
 
 ## 🚀 Getting Started

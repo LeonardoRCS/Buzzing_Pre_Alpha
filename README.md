@@ -46,7 +46,7 @@ wasp start
 ## 📝 Notes
 
 - 🗄️ **Database:** PostgreSQL — configured in `main.wasp`
-- ⚛️ **Client:** React (Wasp default) — Preact requires additional configuration
+- ⚛️ **Client:** React (Wasp default) — Aiming to use Preact, but this requires additional configuration
 - 🎯 **Scope:** Minimal design intended for live demo validation
 
 ---

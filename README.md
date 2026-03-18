@@ -63,7 +63,8 @@ cd your_project_folder
 
 # 2. Launch Development Environment
 wasp start
-Note for Windows Users: As Wasp is optimized for Unix-like environments, it is highly recommended to run this project via WSL2 (Windows Subsystem for Linux) for maximum stability.
+
+# Note for Windows Users: As Wasp is optimized for Unix-like environments, it is highly recommended to run this project via WSL2 (Windows Subsystem for Linux) for maximum stability.
 ```
 
 > The app will spin up on `localhost` with an auto-generated database and UI. No extra config needed.
@@ -75,7 +76,6 @@ Note for Windows Users: As Wasp is optimized for Unix-like environments, it is h
 - 🗄️ **Database:** SQLite — configured automatically by Wasp
 - ⚛️ **Client:** Preact, a fast and lightweight alternative to React
 - 🎯 **Scope:** Minimal design intended for live demo validation
-- ⛔ **Limitations:** Wasp is a framework designed for Linux subsystems, but it is (in theory) possible to work around this by using the WSL compatibility layer on Windows enviroments.
 ---
 
 <div align="center">

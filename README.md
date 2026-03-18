@@ -30,7 +30,7 @@
 
 ```bash
 # 1. Install Wasp CLI
-npm install -g wasp
+sudo npm install -g wasp
 
 # 2. Navigate to the project
 cd Buzzing_Pre_Alpha

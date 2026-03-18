@@ -9,7 +9,7 @@
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-DB-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
 
-> A minimal MVP for monitoring public transport bus trips — built with **Wasp Framework** and **React**.
+> A minimal MVP for monitoring public transport bus trips — built with **Wasp Framework** and **Preact**.
 
 </div>
 

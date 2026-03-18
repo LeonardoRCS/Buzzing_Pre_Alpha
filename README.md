@@ -4,9 +4,11 @@
 ### Public Transport Monitoring
 
 ![Pre-Alpha](https://img.shields.io/badge/status-pre--alpha-yellow?style=for-the-badge&logo=github)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![Wasp](https://img.shields.io/badge/Wasp-Framework-orange?style=for-the-badge)
-![React](https://img.shields.io/badge/React-UI-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-DB-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+![Preact](https://img.shields.io/badge/Preact-673AB7?style=for-the-badge&logo=preact&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-DB-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
+![Built with Antigravity](https://img.shields.io/badge/Built%20with-Antigravity-blueviolet?style=for-the-badge&logo=google-cloud&logoColor=white)
 
 > A minimal MVP for monitoring public transport bus trips — built with **Wasp Framework** and **React**.
 
@@ -45,8 +47,8 @@ wasp start
 
 ## 📝 Notes
 
-- 🗄️ **Database:** PostgreSQL — configured in `main.wasp`
-- ⚛️ **Client:** React (Wasp default) — Aiming to use Preact, but this requires additional configuration
+- 🗄️ **Database:** SQLite — configured automatically by Wasp
+- ⚛️ **Client:** Preact, a fast and lightweight alternative to React
 - 🎯 **Scope:** Minimal design intended for live demo validation
 - ⛔ **Limitations** Wasp is a framework designed for Linux subsystems, but it is (in theory) possible to work around this by using the WSL compatibility layer.
 ---

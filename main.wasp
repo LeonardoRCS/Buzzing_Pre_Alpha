@@ -1,23 +1,14 @@
 app Buzzing {
-  title: "Buzzing - Public Transport Monitoring",
-  db: {
-    system: PostgreSQL
-  }
+  wasp: {
+    version: "^0.21.1"
+  },
+  title: "Buzzing - Public Transport Monitoring"
 }
 
-entity BusTrip {
-  lineName: String,
-  scheduledTime: DateTime,
-  status: String
-}
-
-route "/" -> page Main
-
-page Main {
-  component: import Main from "@client/Main.tsx"
-}
+route RootRoute { path: "/", to: Main }
+page Main { component: import { Main } from "@src/client/Main" }
 
 query getBusTrips {
-  fn: import { getBusTrips } from "@server/queries.ts",
+  fn: import { getBusTrips } from "@src/server/queries",
   entities: [BusTrip]
 }

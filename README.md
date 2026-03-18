@@ -49,7 +49,7 @@ wasp start
 - 🗄️ **Database:** SQLite — configured automatically by Wasp
 - ⚛️ **Client:** Preact, a fast and lightweight alternative to React
 - 🎯 **Scope:** Minimal design intended for live demo validation
-- ⛔ **Limitations** Wasp is a framework designed for Linux subsystems, but it is (in theory) possible to work around this by using the WSL compatibility layer.
+- ⛔ **Limitations** Wasp is a framework designed for Linux subsystems, but it is (in theory) possible to work around this by using the WSL compatibility layer on Windows enviroments.
 ---
 
 <div align="center">

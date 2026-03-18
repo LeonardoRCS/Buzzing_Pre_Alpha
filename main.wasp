@@ -1,0 +1,23 @@
+app Buzzing {
+  title: "Buzzing - Public Transport Monitoring",
+  db: {
+    system: PostgreSQL
+  }
+}
+
+entity BusTrip {
+  lineName: String,
+  scheduledTime: DateTime,
+  status: String
+}
+
+route "/" -> page Main
+
+page Main {
+  component: import Main from "@client/Main.tsx"
+}
+
+query getBusTrips {
+  fn: import { getBusTrips } from "@server/queries.ts",
+  entities: [BusTrip]
+}

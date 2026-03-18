@@ -4,11 +4,10 @@
 ### Public Transport Monitoring
 
 ![Pre-Alpha](https://img.shields.io/badge/status-pre--alpha-yellow?style=for-the-badge&logo=github)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![Wasp](https://img.shields.io/badge/Wasp-Framework-orange?style=for-the-badge)
 ![Preact](https://img.shields.io/badge/Preact-673AB7?style=for-the-badge&logo=preact&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-DB-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
-![Built with Antigravity](https://img.shields.io/badge/Built%20with-Antigravity-blueviolet?style=for-the-badge&logo=google-cloud&logoColor=white)
 
 > A minimal MVP for monitoring public transport bus trips — built with **Wasp Framework** and **React**.
 

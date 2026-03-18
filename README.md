@@ -25,6 +25,87 @@
 
 ---
 
+
+
+Detectar idioma
+
+Português (Brasil)
+
+Inglês
+
+Espanhol
+
+Inglês
+
+Português (Brasil)
+
+Espanhol
+## 🐝 Por que Wasp? (Motivação e Escolhas Técnicas)
+
+Diferente de frameworks tradicionais onde a integração entre frontend, backend e banco de dados pode se tornar um emaranhado de *boilerplates*, a escolha pelo **Wasp** para o desenvolvimento do **Buzzing** foi estratégica. Como acadêmica de Análise e Desenvolvimento de Sistemas, busquei uma solução que permitisse:
+
+- **Abstração de Alto Nível:** O Wasp permite focar na lógica de negócio enquanto gerencia a infraestrutura de autenticação e rotas de forma declarativa.
+- **Eficiência Full-stack:** A coesão entre React, Node.js e Prisma reduz drasticamente a fricção no desenvolvimento.
+- **Segurança Nativa:** Implementação de autenticação robusta com esforço reduzido, permitindo maior foco na segurança dos dados e na experiência do usuário.
+
+## 🛠️ O que compõe o ecossistema do Buzzing?
+
+O projeto está sendo construído sobre pilares modernos de desenvolvimento:
+
+- **Frontend:** React para uma interface reativa e dinâmica.
+- **Backend:** Node.js, garantindo performance e escalabilidade.
+- **ORM:** Prisma, para uma manipulação de dados tipada e segura.
+- **Linguagem:** TypeScript, assegurando a integridade do código através de tipagem estática.
+
+## 🚀 Status do Projeto: Pre-Alpha
+
+Atualmente, o **Buzzing** encontra-se em estágio inicial de desenvolvimento (*Pre-Alpha*). Os próximos marcos incluem:
+- [ ] Refinamento do esquema de banco de dados.
+- [ ] Implementação de lógica personalizada de CRUD.
+- [ ] Integração de estilos visuais customizados.
+
+---
+*Nota: Este repositório reflete minha jornada acadêmica e prática em Prompt Engineering e Desenvolvimento Full-stack.*
+1.640
+## 🐝 Why Wasp? (Motivation and Technical Choices)
+
+Unlike traditional frameworks where the integration between frontend, backend, and database can become a tangled mess of *boilerplates*, the choice of **Wasp** for the development of **Buzzing** was strategic. As an academic in Systems Analysis and Development, I sought a solution that would allow:
+
+- **High-Level Abstraction:** Wasp allows focusing on business logic while managing authentication infrastructure and routes declaratively.
+
+- **Full-stack Efficiency:** The cohesion between React, Node.js, and Prisma drastically reduces friction in development.
+
+- **Native Security:** Robust authentication implementation with reduced effort, allowing greater focus on data security and user experience.
+
+## 🛠️ What comprises the Buzzing ecosystem?
+
+The project is being built on modern development pillars:
+
+- **Frontend:** React for a reactive and dynamic interface.
+
+- **Backend:** Node.js, ensuring performance and scalability.
+
+- **ORM:** Prisma, for typed and secure data manipulation.
+
+- **Language:** TypeScript, ensuring code integrity through static typing.
+
+## 🚀 Project Status: Pre-Alpha
+
+Currently, **Buzzing** is in the early stages of development (*Pre-Alpha*). Upcoming milestones include:
+
+- [ ] Database schema refinement.
+
+- [ ] Implementation of custom CRUD logic.
+
+- [ ] Integration of custom visual styles.
+
+---
+*Note: This repository reflects my academic and practical journey in Full-stack Development.*
+Enviar feedback
+Resultados de tradução disponíveis
+
+---
+
 ## 🚀 Getting Started
 
 **Prerequisites:** Node.js and npm installed.

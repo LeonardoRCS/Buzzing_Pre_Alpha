@@ -48,7 +48,7 @@ wasp start
 - 🗄️ **Database:** PostgreSQL — configured in `main.wasp`
 - ⚛️ **Client:** React (Wasp default) — Aiming to use Preact, but this requires additional configuration
 - 🎯 **Scope:** Minimal design intended for live demo validation
-
+- ⛔ **Limitations** Wasp is a framework designed for Linux subsystems, but it is (in theory) possible to work around this by using the WSL compatibility layer.
 ---
 
 <div align="center">

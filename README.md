@@ -1,22 +1,58 @@
-# Buzzing - Public Transport Monitoring (Pre-Alpha)
+<div align="center">
 
-A minimal MVP for monitoring public transport bus trips using Wasp Framework and React.
+# 🐝 Buzzing
+### Public Transport Monitoring
 
-## Features
+![Pre-Alpha](https://img.shields.io/badge/status-pre--alpha-yellow?style=for-the-badge&logo=github)
+![Wasp](https://img.shields.io/badge/Wasp-Framework-orange?style=for-the-badge)
+![React](https://img.shields.io/badge/React-UI-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-DB-336791?style=for-the-badge&logo=postgresql&logoColor=white)
 
-- Entity: BusTrip with lineName, scheduledTime, status
-- Query: getBusTrips to fetch all trips
-- UI: Simple list display of bus trips
+> A minimal MVP for monitoring public transport bus trips — built with **Wasp Framework** and **React**.
 
-## Setup
+</div>
 
-1. Install Wasp CLI: `npm install -g wasp`
-2. Navigate to project: `cd Buzzing_Pre_Alpha`
-3. Initialize: `wasp start`
-4. The app will run on localhost with auto-generated DB and UI.
+---
 
-## Notes
+## ✨ Features
 
-- Uses PostgreSQL for DB (configured in main.wasp)
-- Client uses React (Wasp default). For Preact, additional configuration needed.
-- Minimal design for live demo validation.
+| Feature | Description |
+|---|---|
+| 🚌 **BusTrip Entity** | Tracks `lineName`, `scheduledTime`, and `status` |
+| 🔍 **getBusTrips Query** | Fetches all trips from the database |
+| 🖥️ **Simple UI** | Clean list display of live bus trips |
+
+---
+
+## 🚀 Getting Started
+
+**Prerequisites:** Node.js and npm installed.
+
+```bash
+# 1. Install Wasp CLI
+npm install -g wasp
+
+# 2. Navigate to the project
+cd Buzzing_Pre_Alpha
+
+# 3. Start the app
+wasp start
+```
+
+> The app will spin up on `localhost` with an auto-generated database and UI. No extra config needed.
+
+---
+
+## 📝 Notes
+
+- 🗄️ **Database:** PostgreSQL — configured in `main.wasp`
+- ⚛️ **Client:** React (Wasp default) — Preact requires additional configuration
+- 🎯 **Scope:** Minimal design intended for live demo validation
+
+---
+
+<div align="center">
+
+Made with 🐝 by [LeonardoRCS](https://github.com/LeonardoRCS)
+
+</div>

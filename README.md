@@ -45,7 +45,7 @@ In modern web development, the overhead of boilerplate code can often stifle inn
 - [ ] **Advanced Schemas:** Implementing relational data for routes and stops.
 - [ ] **Logic Enhancement:** Adding server-side validation for trip updates.
 - [ ] **UI/UX Polishing:** Implementing a dynamic dashboard for better navigation (work in progress).
-## **And much more updates on the way!**
+- **And much more updates on the way!**
 
 ---
 

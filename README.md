@@ -1,7 +1,7 @@
 <div align="center">
 
 # 🐝 Buzzing
-### Public Transport Monitoring
+### Real-Time Public Transport Monitoring 
 
 ![Pre-Alpha](https://img.shields.io/badge/status-pre--alpha-yellow?style=for-the-badge&logo=github)
 ![Wasp](https://img.shields.io/badge/Wasp-Framework-orange?style=for-the-badge)
@@ -9,72 +9,61 @@
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-DB-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
 
-> A minimal MVP for monitoring public transport bus trips — built with **Wasp Framework** and **Preact**.
+> A lightweight MVP for monitoring public transport logistics — architected with **Wasp Framework** and optimized with **Preact**.
 
 </div>
 
 ---
 
-## ✨ Features
+## ✨ Core Features
 
-| Feature | Description |
+| Feature | Technical Implementation |
 |---|---|
-| 🚌 **BusTrip Entity** | Tracks `lineName`, `scheduledTime`, and `status` |
-| 🔍 **getBusTrips Query** | Fetches all trips from the database |
-| 🖥️ **Simple UI** | Clean list display of live bus trips |
+| 🚌 **BusTrip Entity** | Schema-driven tracking of `lineName`, `scheduledTime`, and `status`. |
+| 🔍 **Reactive Queries** | Optimized `getBusTrips` logic for real-time data fetching. |
+| 🖥️ **Minimalist UI** | High-performance interface for seamless trip visualization. |
 
 ---
 
-## 🐝 Why Wasp? (Motivation and Technical Choices)
+## 🐝 Why Wasp? (Strategic Choices)
 
-Unlike traditional frameworks where the integration between frontend, backend, and database can become a tangled mess of *boilerplates*, the choice of **Wasp** for the development of **Buzzing** was strategic. As an academic in Systems Analysis and Development, I sought a solution that would allow:
+In modern web development, the overhead of boilerplate code can often stifle innovation. The choice of **Wasp** for **Buzzing** was a deliberate architectural decision. As a student of Systems Analysis and Development, I aimed for:
 
-- **High-Level Abstraction:** Wasp allows focusing on business logic while managing authentication infrastructure and routes declaratively.
+* **Declarative Infrastructure:** Leveraging Wasp's DSL to manage auth, routing, and DB schemas, allowing me to focus strictly on the business logic of transport monitoring.
+* **Full-stack Cohesion:** Seamless integration between Node.js and Prisma, reducing the "glue code" typically required in traditional stacks.
+* **Performance at the Core:** By pairing Wasp's robust backend with **Preact** on the frontend, the application achieves a significantly smaller bundle size and faster TTI (Time to Interactive).
 
-- **Full-stack Efficiency:** The cohesion between React, Node.js, and Prisma drastically reduces friction in development.
+## 🛠️ The Tech Stack
 
-- **Native Security:** Robust authentication implementation with reduced effort, allowing greater focus on data security and user experience.
+- **Frontend:** **Preact** — chosen for its high performance and React-compatibility.
+- **Backend:** **Node.js** — providing a scalable and non-blocking runtime.
+- **ORM:** **Prisma** — ensuring type-safe database interactions.
+- **Database:** **SQLite** — lightweight and perfect for localized MVP validation.
 
-## 🛠️ What comprises the Buzzing ecosystem?
+## 🚀 Development Roadmap
 
-The project is being built on modern development pillars:
-
-- **Frontend:** React for a reactive and dynamic interface.
-
-- **Backend:** Node.js, ensuring performance and scalability.
-
-- **ORM:** Prisma, for typed and secure data manipulation.
-
-- **Language:** TypeScript, ensuring code integrity through static typing.
-
-## 🚀 Project Status: Pre-Alpha
-
-Currently, **Buzzing** is in the early stages of development (*Pre-Alpha*). Upcoming milestones include:
-
-- [ ] Database schema refinement.
-
-- [ ] Implementation of custom CRUD logic.
-
-- [ ] Integration of custom visual styles.
+- [ ] **Advanced Schemas:** Implementing relational data for routes and stops.
+- [ ] **Logic Enhancement:** Adding server-side validation for trip updates.
+- [ ] **UI/UX Polishing:** Implementing a "Weirdcore/Y2K" inspired dashboard (work in progress).
 
 ---
-*Note: This repository reflects my academic and practical journey in Full-stack Development.*
----
----
 
-## 🚀 Getting Started
+## 🏁 Getting Started
 
-**Prerequisites:** Node.js and npm installed.
+**Prerequisites:** Node.js (LTS) and npm.
 
 ```bash
 # 1. Install Wasp CLI
 sudo npm install -g wasp
+or
+curl -sSL [https://get.wasp-lang.dev/installer.sh](https://get.wasp-lang.dev/installer.sh) | sh
 
 # 2. Navigate to the project
-cd Buzzing_Pre_Alpha
+cd your_project_folder
 
-# 3. Start the app
+# 2. Launch Development Environment
 wasp start
+Note for Windows Users: As Wasp is optimized for Unix-like environments, it is highly recommended to run this project via WSL2 (Windows Subsystem for Linux) for maximum stability.
 ```
 
 > The app will spin up on `localhost` with an auto-generated database and UI. No extra config needed.
